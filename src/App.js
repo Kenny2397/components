@@ -1,3 +1,5 @@
+import React from "react";
+
 import LearnReact from "./components/learn-react/LearnReact";
 import Person from "./components/Person/Person";
 
@@ -6,7 +8,7 @@ function App() {
   return (
     <div className="container">
       
-      {/* <LearnReact/> */}
+      <LearnReact/>
       {/* 2)hay diferencia en usar {} en los props string? */}
 
       <Person name={"kenny"} lastName={"Luque"} city={"Lima"} age={24} hairColor={"black"}/>
